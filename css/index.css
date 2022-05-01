@@ -4,6 +4,6 @@
 }
 
 .c1 {
-  background-image: /res/background-c1.jpeg;
+  background-image: url(/res/background-c1.jpeg);
   text-align: center;
 }
