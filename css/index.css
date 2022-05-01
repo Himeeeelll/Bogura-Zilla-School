@@ -6,4 +6,10 @@
 .c1 {
   background-image: url(/res/background-c1.jpeg);
   text-align: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.c1 h4 {
+  color: white;
 }
