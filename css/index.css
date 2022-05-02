@@ -17,5 +17,6 @@ input {
 }
 
 button {
-  color: tomato;
+  background-color: #ff6347;
+  color: white;
 }
