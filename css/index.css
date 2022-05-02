@@ -3,8 +3,12 @@
   font-family: roboto;
 }
 
-.container {
+.container{
   background-color: #0f0e0d;
   display: flex;
   align-items: center;
+}
+
+input {
+  
 }
