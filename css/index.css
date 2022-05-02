@@ -6,7 +6,7 @@
 
 .c1 {
   width: 100%;
-  height: ;
+  aspect-ratio: 16 / 9;
   background-image: url('../res/background-C1.jpeg');
   text-align: center;
 }
