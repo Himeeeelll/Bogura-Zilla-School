@@ -7,10 +7,14 @@
   margin: 0;
 }
 
+h1 {
+  font-weight: 700; !important
+}
+
 .c1 {
  background-image: url('/res/background-c1.jpeg');
  background-repeat: no-repeat;
  background-size: 100%;
- background-color: #fbfcf7;
+ background-color: rgb(47,30,0);
  background-attachment: fixed;
 }
