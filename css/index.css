@@ -6,3 +6,11 @@
   padding: 0;
   margin: 0;
 }
+
+.c1 {
+ background-image: url('/res/background-c1.jpeg');
+ background-repeat: no-repeat;
+ background-size: 100%;
+ background-color: #fbfcf7;
+ background-attachment: fixed;
+}
