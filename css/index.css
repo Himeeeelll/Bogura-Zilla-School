@@ -8,13 +8,17 @@
 }
 
 h1 {
-  font-weight: 700; !important
+  font-weight: 800; !important
 }
 
-.c1 {
+body {
  background-image: url('/res/background-c1.jpeg');
  background-repeat: no-repeat;
  background-size: 100%;
  background-color: rgb(47,30,0);
  background-attachment: fixed;
+}
+
+.c1 {
+
 }
