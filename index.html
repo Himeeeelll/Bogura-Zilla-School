@@ -48,7 +48,7 @@
 
       <div class="btn-group d-flex justify-content-center" role="group" aria-label="Intro-Buttons">
         <a href=#contact><button type="button" class="btn btn-outline-light">যোগাযোগ করুন</button></a>
-        <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="copyToClipboard('#eiin')">EIIN নম্বর</button>
+        <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#exampleModal">EIIN নম্বর</button>
 
         <a href="#result"><button type="button" class="btn btn-outline-light">ফলাফল দেখুন</button></a>
       </div>
@@ -69,7 +69,7 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">পূর্বের পৃষ্ঠায় ফেরত যান</button>
-        <button type="button" class="btn btn-primary">নম্বর কপি করুন</button>
+        <button type="button" class="btn btn-primary" onclick="copyToClipboard('#eiin')">নম্বর কপি করুন</button>
       </div>
     </div>
   </div>
