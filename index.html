@@ -48,7 +48,7 @@
 
       <div class="btn-group d-flex justify-content-center" role="group" aria-label="Intro-Buttons">
         <a href=#contact><button type="button" class="btn btn-outline-light">যোগাযোগ করুন</button></a>
-        <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#exampleModal">EIIN নম্বর</button>
+        <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="copyToClipboard('#eiin')">EIIN নম্বর</button>
 
         <a href="#result"><button type="button" class="btn btn-outline-light">ফলাফল দেখুন</button></a>
       </div>
@@ -57,7 +57,7 @@
   
   <!-- Modal Start -->
   
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade modal-dialog-centered" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -65,7 +65,7 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        বগুড়া জিলা স্কুলের EIIN নম্বর: 119176
+        বগুড়া জিলা স্কুলের EIIN নম্বর: <p id="eiin">119176</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">পূর্বের পৃষ্ঠায় ফেরত যান</button>
