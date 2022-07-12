@@ -18,28 +18,3 @@ h1 {
  background-attachment: fixed;
  height: 100vh;!important
 }
-
-.writing_animation{
-    font-family: 'Roboto Mono', monospace;
-    font-size: 2rem;
-}
-
-.writing_animation_hide{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: white;
-}
-
-.writing_animation_cursor{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: transparent;
-    border-left: 3px solid black;
-}
-
