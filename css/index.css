@@ -2,12 +2,12 @@
 
 * {
   font-family: 'Dosis', sans-serif;
-  font-family: 'Hind Siliguri', sans-serif; !important
-  box-sizing: border-box; !important
+  font-family: 'Hind Siliguri', sans-serif;!important
+  box-sizing: border-box;!important
 }
 
 h1 {
-  font-weight: 800; !important
+  font-weight: 800;!important
 }
 
 #c1 {
@@ -16,7 +16,7 @@ h1 {
  background-size: cover;
  background-color: rgb(47,30,0);
  background-attachment: fixed;
- 
+ height: 100vh;!important
 }
 
 .c1 {
