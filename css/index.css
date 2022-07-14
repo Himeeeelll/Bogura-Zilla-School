@@ -11,11 +11,10 @@ h1 {
 }
 
 #c1 {
- background-image: url('/res/background-c1.jpeg');
+ height: 100vh;!important
  background-repeat: no-repeat;
- background-size: full;
+ background-size: 100%;
  background-color: rgb(92,100,102);
  background-attachment: fixed;
- height: 100vh;!important
- background-position: bottom;!important
+ background-position: bottom center;
 }
