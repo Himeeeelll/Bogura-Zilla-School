@@ -13,9 +13,9 @@ h1 {
 #c1 {
  background-image: url('/res/background-c1.jpeg');
  background-repeat: no-repeat;
- background-size: 100%;
+ background-size: full;
  background-color: rgb(92,100,102);
  background-attachment: fixed;
  height: 100vh;!important
- background-position: bottom center;!important
+ background-position: bottom;!important
 }
