@@ -6,21 +6,15 @@
   box-sizing: border-box;!important
 }
 
-a {
-  text-decoration: none; !important
-}
-
 h1 {
   font-weight: 800;!important
 }
 
 #c1 {
- height: 100vh;!important
- background-image: url('/res/background-c1.jpeg');!important
+ background-image: url('/res/background-c1.jpg');
  background-repeat: no-repeat;
  background-size: cover;
- background-color: rgb(92,100,102);
+ background-color: rgb(47,30,0);
  background-attachment: fixed;
- background-position: bottom center;
+ height: 100vh;!important
 }
-
