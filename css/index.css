@@ -10,11 +10,3 @@ h1 {
   font-weight: 800;!important
 }
 
-#c1 {
- background-image: url('res/background-c1.jpg');
- background-repeat: no-repeat;
- background-size: cover;
- background-color: rgb(47,30,0);
- background-attachment: fixed;
- height: 100vh;!important
-}
