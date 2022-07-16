@@ -149,12 +149,20 @@
 
 <!-- Toast Start -->
 
-<div class="toast align-items-center" role="alert" aria-live="assertive" aria-atomic="true">
-  <div class="d-flex">
+<!-- Flexbox container for aligning the toasts -->
+<div aria-live="polite" aria-atomic="true" class="d-flex justify-content-center align-items-center w-100">
+
+  <!-- Then put toasts within -->
+  <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-header">
+      <img src="res/logo-nav.png" width="10" class="rounded me-2" alt="">
+      <strong class="me-auto">সতর্কতা</strong>
+      <small>একটি জরুরি ঘোষণা</small>
+      <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
     <div class="toast-body">
-     স্টুডেন্ট ড্যাশবোর্ড সুবিধাটি এখনও সবার জন্য উন্মুক্ত করা হয়নি। সাময়িক এ অসুবিধার জন্য আমরা দুঃখিত।
-   </div>
-    <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+      স্টুডেন্ট ড্যাশবোর্ড সুবিধাটি এখনও সবার জন্য উন্মুক্ত করা হয়নি। সাময়িক এ অসুবিধার জন্য আমরা দুঃখিত।
+    </div>
   </div>
 </div>
 
